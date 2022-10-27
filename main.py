@@ -1,5 +1,5 @@
 #from methods_help import method_help
-from functions import function, welcome,add_numbers,numdividedFrom_add_numbers
+from functions import welcome,add_numbers,numdividedFrom_add_numbers,greet,square
 #from returnStuff import returnS
 
 #method_help()
@@ -8,5 +8,7 @@ added = add_numbers(4,8)
 print(added)
 div=numdividedFrom_add_numbers(5,added)
 print(div)
-function()
+greet()
+fart = square(10)
+print(fart)
 # returnS()
