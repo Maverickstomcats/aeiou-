@@ -1,6 +1,6 @@
 #from methods_help import method_help
 #from functions import welcome,add_numbers,numdividedFrom_add_numbers,greet,square
-from returnStuff import returnS, powah, usd_to_euro
+from returnStuff import returnS, powah, usd_to_euro, reversefunniwrod
 
 #method_help()
 #welcome(" Alan Shera")
@@ -16,3 +16,4 @@ fartymcfart = powah(4,6)
 print(fartymcfart)
 moni = usd_to_euro(10)
 print(moni)
+reversefunniwrod("mobisu")

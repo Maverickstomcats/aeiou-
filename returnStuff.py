@@ -36,3 +36,5 @@ def usd_to_euro(USD):
 # Also, you must create a variable called word, which contains any string, to pass it as an argument to the created function.
 
 # Hint: inside the created function, you should use string methods already seen.
+def reversefunniwrod(word):
+  reversal = word[::-1]
