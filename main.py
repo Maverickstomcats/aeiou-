@@ -17,5 +17,6 @@ from dynamic_functions import check_3digits
 #rint(fartymcfart)
 #3print(moni)
 #reverse_word("Jesus")
-data = check_3digits(98)
+  
+data = check_3digits([55,99,6000])
 print(data)
