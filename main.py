@@ -1,7 +1,8 @@
 #from methods_help import method_help
 #from functions import welcome,add_numbers,numdividedFrom_add_numbers,greet,square
-from returnStuff import returnS, powah, usd_to_euro, reversefunniwrod
-
+#from returnStuff import powah, usd_to_euro, reverse_word, returnS
+#from practice_problems import return_distincts
+from dynamic_functions import check_3digits 
 #method_help()
 #welcome(" Alan Shera")
 #added = add_numbers(4,8)
@@ -11,9 +12,10 @@ from returnStuff import returnS, powah, usd_to_euro, reversefunniwrod
 #greet()
 #fart = square(10)
 #print(fart) 
-returnS()
-fartymcfart = powah(4,6)
-print(fartymcfart)
-moni = usd_to_euro(10)
-print(moni)
-reversefunniwrod("mobisu")
+#returnS()
+#fartymcfart = powah(4,6)
+#rint(fartymcfart)
+#3print(moni)
+#reverse_word("Jesus")
+data = check_3digits(98)
+print(data)

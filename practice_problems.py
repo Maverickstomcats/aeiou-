@@ -18,6 +18,7 @@ def return_distincts():
   numbertwo = random.randint(1,10)
   numberthree = random.randint(1,10)
   list = [numberone, numbertwo, numberthree]
+  list.sort
+  print(list)
 
-if list < 10 
-print
+ 
