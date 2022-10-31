@@ -18,5 +18,5 @@ from dynamic_functions import check_3digits
 #3print(moni)
 #reverse_word("Jesus")
   
-data = check_3digits([55,99,6000])
+data = check_3digits([191,999,610])
 print(data)

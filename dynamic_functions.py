@@ -1,9 +1,11 @@
 def check_3digits(list1):
+  three_digit_list = []
   for n in list1:
     if n in range (100,1000):
-      return True
+      three_digit_list.append(n)
     else:
       pass
+  return three_digit_list
 ########################################################################################################################
 # Dynamic Functions Practice #1
 # Create a function (all_positives) that returns True if all the values in a list are positive, and False if at least one of the values is negative. Create a list named numbers with positive and negative values.
