@@ -3,22 +3,12 @@
 # The outputs of a certain function can become inputs of other
 # functions. That way, the program is built from the interaction
 # between functions that perform a defined task .
-# def function_1():
-# |...
-# |return a
-# def function_2(a):
-# |...
-# |return b
-# def function_3(b):
-# |...
-# |return c
-# def function_4(a,c):
-# |...
-# |return d
+from random import shuffle 
 
-def interactions():
-  pass
-
+sticks = ["------","---","----","------","-------------"]
+def mixing(sticks):
+  shuffle(sticks)
+  return sticks
 #####################################################################################################
 
 #   Interactions Between Functions Practice #1
