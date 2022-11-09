@@ -3,7 +3,7 @@
 #from returnStuff import powah, usd_to_euro, reverse_word, returnS
 #from practice_problems import return_distincts
 from dynamic_functions import check_3digits, all_positives
-from function_interactions import mixing, sticks
+from function_interactions import mixing, sticks, powerball, confirm
 #method_help()
 #welcome(" Alan Shera")
 #added = add_numbers(4,8)
@@ -18,10 +18,12 @@ from function_interactions import mixing, sticks
 #rint(fartymcfart)
 #3print(moni)
 #reverse_word("Jesus")
-  
-data = check_3digits([191,999,610,191,11,531,511,566,911,711,696,420,117,118])
-print(data)
-data2 = all_positives([1,33,-1,55])
-print(data2)
-data3 = mixing(sticks)
-print(data3)
+powerball()
+poop = mixing(sticks)
+luck = powerball()
+print(luck)
+print(confirm(poop,luck))
+#data = check_3digits([191,999,610,191,11,531,511,566,911,711,696,420,117,118])
+#print(data)
+#data2 = all_positives([1,33,-1,55])
+#print(data2)

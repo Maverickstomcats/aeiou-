@@ -9,6 +9,21 @@ sticks = ["------","---","----","------","-------------"]
 def mixing(sticks):
   shuffle(sticks)
   return sticks
+pass
+
+def powerball():
+  attempt = ""
+  while attempt not in ["1", "2", "3", "4", "5"]:
+    attempt = input("choose a number")
+  return int(attempt)
+
+
+def confirm(list,attempt):
+  if list[attempt-1] == "-":
+    print("take one for the team")
+  else:
+    print("you're safe, go get some chow")
+  print(f"you got sticks{list[attempt-1]}")
 #####################################################################################################
 
 #   Interactions Between Functions Practice #1
